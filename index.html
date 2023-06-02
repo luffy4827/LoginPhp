@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="loginSection">
+        <img src="/image/b.png" alt="">
+        <h1>Login</h1>
+        <form action="api/api.php" method="post">
+            <input class="inputbox" type="text" name="user" placeholder="Enter your username" required><br>
+            <input class="inputbox" type="password" name="password" placeholder="Enter your password" required><br>
+            <input type="submit" name="login" class="btn" value="LogIn">
+            <hr>
+            <p class="or">OR</p>
+            <p> Don't have an account? <a href="routes/signUp.html">SignUp Now</a></p>
+        </form>
+    </div>
+</body>
+
+</html>

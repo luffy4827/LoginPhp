@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp Page</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="signupSection">
+        <img src="/image/b.png" alt="">
+        <h1> SignUp</h1>
+        <form action="../api/api.php" method="post">
+            <input type="text" name="name" placeholder="Enter your name" class="inputbox" required><br>
+            <input type="text" name="user" placeholder="Enter your username" class="inputbox" required><br>
+            <input type="password" name="password" placeholder="Enter your password" class="inputbox" required><br>
+            <input type="password" name="cpassword" placeholder="Confirm your password" class="inputbox" required><br>
+            <input type="submit" name="Signup" class="btn" value="SignUp"><br>
+            <p> Already have an account? <a href="../index.html"> LogIn</a></p>
+        </form>
+    </div>
+</body>
+</html>
